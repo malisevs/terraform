@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"single_repo","Source":"./modules/bitbucket/single_repo","Dir":"modules/bitbucket/single_repo"},{"Key":"","Source":"","Dir":"."},{"Key":"all_repos","Source":"./modules/bitbucket/hop_repos","Dir":"modules/bitbucket/hop_repos"}]}
