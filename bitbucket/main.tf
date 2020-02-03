@@ -12,7 +12,8 @@ module "single_repo" {
   source = "./modules/bitbucket/single_repo"
 
   names = [ 
-    {user = "test.user", repo = "test.repo", permission = "REPO_WRITE"}
+    {user = "test.user1", repo = "test.repo", permission = "REPO_WRITE"},
+    {user = "test.user2", repo = "test.repo", permission = "REPO_READ"}
   ]
 }
 
@@ -20,6 +21,7 @@ module "all_repos" {
   source = "./modules/bitbucket/hop_repos"
 
   names = [
-    { user = "test.user2", permission = "REPO_WRITE"}
+    { user = "test.user1", permission = "REPO_WRITE"},
+    { user = "test.user2", permission = "REPO_READ"}
   ]
 }
