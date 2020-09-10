@@ -1,5 +1,3 @@
-hop.tfvars
-backend.tf
 terraform.tfstate
 terraform.tfstate.backup
 .terraform
